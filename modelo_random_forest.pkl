@@ -1,1 +1,8 @@
+import joblib
+from sklearn.ensemble import RandomForestRegressor
 
+# ejemplo
+model = RandomForestRegressor()
+
+# guardar modelo
+joblib.dump(model, "modelo_random_forest.pkl")
